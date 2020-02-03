@@ -10,12 +10,12 @@
 #——————————————————————————————————————————
 monte_carlo_frozen_backlog <- function(analysis_duration, remaining_work_items, tp_distribution, runs)
 {
-	projection = 1:analysis_duration
-	timebox = 0
-
+  projection = 1:analysis_duration
+  timebox = 0	
+  
 	#Selects a random value from the throughput distribution, sums it to the work items already finished and checks if it was enough to finish the backlog
-	iteration <- function()
-	{
+  iteration <- function()
+  {
 		rnd_selection = sample(tp_distribution, timebox, replace=T)
 		sum(rnd_selection) >= remaining_work_items
 	}

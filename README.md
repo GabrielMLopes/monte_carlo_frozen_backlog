@@ -7,9 +7,9 @@
    ```
    Where:
    ```
-   analysis_duration - Quantity of future time-boxes that will be in the projection
+   analysis_duration    - Quantity of future time-boxes that will be in the projection
    remaining_work_items - Quantity of work items remaining to finish the release/project
-   tp_distribution - Vector with the Throughput values for the project by time-box
-   runs - Quantity of times that each iteration will run for
+   tp_distribution      - Vector with the Throughput values for the project by time-box
+   runs                 - Quantity of times that each iteration will run for
    ```
    The script will return the deliry chance percentage by timebox

@@ -1,7 +1,7 @@
 # Monte Carlo predicitond for frozen backlogs
    A script to make delivery projections using the Monte Carlo method.
 ## Running the script
-   Open the script in R to load the function and then simply call it using:
+   Open the script in R to load the function and then simply call it, using:
    ```
    monte_carlo_frozen_backlog(analysis_duration, remaining_work_items, tp_distribution, runs)
    ```

@@ -29,4 +29,4 @@
 
    - there is no limit to the vector size for *tp_distribution* and even though the more data the merrier, it's advisable to not bring data from a time so long ago that the context was different that it is today. Context changes might come from changes in the team's size, working on different subject matter, new frameworks, new methodologies, etc.
 
-   - the higher the value for *runs* the closest the Monte Carlo will get to the percentage value mathematically calculated. For more information on the impact of the number of times the Mont Carlo runs check: https://medium.com/@gabriellopes_55600/monte-carlo-in-practice-finding-the-ideal-iteration-value-b21c66eab50e
+   - the higher the value for *runs* the closest the Monte Carlo will get to the percentage value mathematically calculated. For more information on the impact of the number of times the Monte Carlo runs, check: https://medium.com/@gabriellopes_55600/monte-carlo-in-practice-finding-the-ideal-iteration-value-b21c66eab50e

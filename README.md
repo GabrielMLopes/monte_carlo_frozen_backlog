@@ -15,7 +15,7 @@
    ```
    The script will return the delivery probability by time-box
 
-## Explain the parameters:
+## Explainig the parameters:
 
    The first parameter *analysis_duration*, controls the number of iterations that the Monte Carl will run for. The definition of what a iteration is will depend on team context, it may be Sprints, weeks, days, etc. For example, lets say the team uses Sprints and is currently on S19, by setting *analysis_duration* to 30 the script will run a prediction for each Sprint from S20 to S49.
 
